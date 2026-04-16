@@ -1,6 +1,6 @@
 ---
 name: interfaces-that-feel
-description: Apply emotional intelligence and craft to any user-facing interface. Use when building UI components, pages, flows, or writing copy — especially when the result feels technically correct but flat, generic, or soulless. Also use when asked to "review my UI", "improve this design", "make this feel better", "audit UX", or "add polish". Evaluates and builds through the feel lens: voice, earned emotion, and restraint. Covers motion craft, copy voice, empty states, error messages, loading states, onboarding, and micro-interactions. Reference aesthetic: How We Feel, Headspace, Gentler Streak, Amie, Arc Browser — warm, considered, emotionally intelligent.
+description: 'Apply emotional intelligence and craft to any user-facing interface. Use when building UI components, pages, flows, or writing copy — especially when the result feels technically correct but flat, generic, or soulless. Also use when asked to "review my UI", "improve this design", "make this feel better", "audit UX", or "add polish". Evaluates and builds through the feel lens: voice, earned emotion, and restraint. Covers motion craft, copy voice, empty states, error messages, loading states, onboarding, and micro-interactions. Reference aesthetic: How We Feel, Headspace, Gentler Streak, Amie, Arc Browser — warm, considered, emotionally intelligent.'
 ---
 
 # Interfaces That Feel
