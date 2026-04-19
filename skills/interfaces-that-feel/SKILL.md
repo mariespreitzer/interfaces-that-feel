@@ -77,6 +77,40 @@ The Browser Company calls this the most useful move for anyone designing softwar
 
 ---
 
+## The Poetic Layer
+
+The material translation is one source. The other is more direct: starting from a specific human emotional state and asking what an interface needs to be for someone in that state.
+
+Most software is designed for a functional user — someone who wants to complete a task. But people use software when they are heartbroken. When they are lonely. When they are waiting for news that could change everything. When they are trying to celebrate something no one else knows about yet.
+
+The conventional approach treats these emotional states as background. The poetic approach makes them the brief.
+
+### Name the State, Not the Task
+
+Before designing any moment, name who is actually there.
+
+| The functional frame | The felt frame |
+|---|---|
+| User is saving a file | Someone just finished three weeks of work |
+| User is in onboarding | Someone decided to try something new and doesn't know yet if it was the right choice |
+| User sees an error | Someone just had their momentum broken |
+| User completes a streak | Someone who needed a win today just got one |
+| User misses a streak | Someone who was already being hard on themselves just got more ammunition |
+
+The interface designed for the task is functional. The interface designed for the feeling is felt.
+
+### Heartbreak as a Design Brief
+
+The sharpest version of this practice: design for an emotional state most software ignores entirely.
+
+What does a notification feel like when someone is grieving? What does "your streak continues" feel like to someone who is numb? What does the empty state of a shared folder feel like after a breakup?
+
+These are not edge cases. They are the design brief for anyone who takes the full human seriously. If an interface only works for someone who is fine, it was not designed for people — it was designed for an ideal user who does not exist.
+
+The interfaces that resonate most are not the ones optimized for efficiency. They are the ones that, in some quiet moment, make you feel understood.
+
+---
+
 ## Product References
 
 ### Figma — Discovered Delight
