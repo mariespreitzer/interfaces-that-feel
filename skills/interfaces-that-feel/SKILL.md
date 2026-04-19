@@ -1,6 +1,6 @@
 ---
 name: interfaces-that-feel
-description: "Use when doing any product ideation, UX/UI design, interaction design, or interface building. Applies the 'interfaces that feel' lens — emotional resonance, voice, and craft — as the foundation of every product decision."
+description: "Use when doing any product ideation, UX/UI design, interaction design, or interface building. Starts with the felt state of the person — not the task — then uses the physical world as vocabulary to discover or articulate that feeling. Applies the 'interfaces that feel' lens: emotional resonance, voice, and craft as the foundation of every product decision."
 ---
 
 # Interfaces That Feel
