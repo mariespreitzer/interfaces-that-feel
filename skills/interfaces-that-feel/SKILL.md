@@ -1,6 +1,6 @@
 ---
 name: interfaces-that-feel
-description: Apply emotional intelligence and craft to any user-facing interface. Use when building UI components, pages, flows, or writing copy — especially when the result feels technically correct but flat, generic, or soulless. Also use when asked to "review my UI", "improve this design", "make this feel better", "audit UX", or "add polish". Evaluates and builds through the feel lens: voice, earned emotion, and restraint. Covers motion craft, copy voice, empty states, error messages, loading states, onboarding, and micro-interactions. Reference aesthetic: How We Feel, Headspace, Gentler Streak, Amie, Arc Browser — warm, considered, emotionally intelligent.
+description: "Use when doing any product ideation, UX/UI design, interaction design, or interface building. Starts with the felt state of the person — not the task — then uses the physical world as vocabulary to discover or articulate that feeling. Applies the 'interfaces that feel' lens: emotional resonance, voice, and craft as the foundation of every product decision."
 ---
 
 # Interfaces That Feel
@@ -34,6 +34,61 @@ Real feel is quieter. It's the transition that makes a state change clear withou
 ### Restraint is the skill
 
 Not every moment deserves feeling. Knowing which moments earn acknowledgment, and which ones just need to work, is the hardest part of this. Gentler Streak is warm not because it animates everything — it's warm because it knows when to celebrate and when to stay out of the way.
+
+---
+
+## The Practice
+
+This skill comes from one thing: starting with a feeling and asking where it already exists in the world.
+
+Most interfaces are designed around a task. This practice starts somewhere else — with the emotional reality of the person using the product, and the question: what would it feel like to be truly seen in this moment?
+
+### Start with the felt state
+
+Before designing any interaction, name who is actually there. Not the action they are taking. The emotional truth underneath it.
+
+| The task frame | The felt frame |
+|---|---|
+| User is saving a file | Someone just finished three weeks of work |
+| User is in onboarding | Someone who decided to try something new and doesn't know yet if it was the right choice |
+| User sees an error | Someone who just had their momentum broken |
+| User completes a streak | Someone who needed a win today just got one |
+| User misses a streak | Someone already being hard on themselves |
+
+The interface designed for the task is functional. The interface designed for the feeling is felt.
+
+### Then ask where that feeling already lives
+
+Once you have the feeling you want to evoke, the physical world becomes your vocabulary. Look for moments — in rooms, in objects, in bodies — where that feeling already exists naturally. The behavior of those moments is your raw material.
+
+**You want solitary listening to feel like you are not alone:**
+Where does that already happen? At a party — the moment you look up and realise the room is full of people moving to the same thing. Heartbeats syncing with the music. The stranger you are dancing near without speaking. Those moments have specific behaviors: presence without interruption, synchrony without announcement, proximity without exchange. Find the digital equivalent.
+
+**You want a destructive action to have real weight:**
+Where does that already exist? A door closing in an old building. A signature on paper. The resistance before a point of no return. Translate that into motion and copy.
+
+**You want an empty state to feel like an invitation rather than a void:**
+Where does that quality already live? A door left ajar. A table set for two with one chair pulled out. Those are not voids — they are anticipations. That goes into copy and visual framing.
+
+The physical world is your vocabulary because things in it have already solved the problem of producing feelings — they have weight, organic variation, responsiveness to their environment. Software has none of those properties by default. When you find a physical moment that carries the feeling you are after, you are borrowing something that already works.
+
+### It also runs the other way
+
+You encounter a physical moment. It makes you feel something specific. You ask where that feeling should live in a digital context.
+
+You watch leaves move in wind and notice: variable, organic, responsive to something invisible, a natural deceleration that finds its own resting point. You want that quality in animation timing. That is not a metaphor. That is a material decision.
+
+Either direction is the same practice. Feeling is always the destination.
+
+### Heartbreak as a design brief
+
+The sharpest test: design for an emotional state most software ignores entirely.
+
+What does a notification feel like when someone is grieving? What does "your streak continues" feel like to someone who is numb? What does the empty state of a shared folder feel like after a breakup?
+
+These are not edge cases. They are the design brief for anyone who takes the full human seriously. If an interface only works for someone who is fine, it was not designed for people — it was designed for an ideal user who does not exist.
+
+The interfaces that resonate most are not optimized for efficiency. They are the ones that, in some quiet moment, make you feel understood.
 
 ---
 
