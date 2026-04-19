@@ -37,77 +37,58 @@ Not every moment deserves feeling. Knowing which moments earn acknowledgment, an
 
 ---
 
-## Where the Rules Come From
+## The Practice
 
-The craft patterns in this skill are not rules that were invented. They come from a practice: looking at the physical world and asking what software would feel like if it borrowed from what you just noticed.
+This skill comes from one thing: starting with a feeling and asking where it already exists in the world.
 
-### The Gap
+Most interfaces are designed around a task. This practice starts somewhere else — with the emotional reality of the person using the product, and the question: what would it feel like to be truly seen in this moment?
 
-Software removed every physical property to become functional. Weight, resistance, environmental responsiveness, organic variation, the trace of use — all gone. The result is efficient, weightless, and often cold.
+### Start with the felt state
 
-Researcher Alex Widua named what's missing: physical objects have **Formal Properties** (weight, elasticity, reflectivity) that produce **Experiential Properties** (pleasure, joy, the sense that something is alive). Digital interfaces have none of the former, so they struggle to produce the latter.
+Before designing any interaction, name who is actually there. Not the action they are taking. The emotional truth underneath it.
 
-The Browser Company put it plainly: *"If software is to have soul, it must feel more like the world around it."*
-
-What people call "whimsy" is usually one physical property carried across deliberately — not decoration added on top, but something that was always true about how things behave in the world, now present in a screen.
-
-### The Translation Move
-
-Pick any physical thing. Notice one property — not what it looks like, but how it *behaves*. Then ask: what would this interface element feel like if it had that property?
-
-**Leaves in wind:** Variable, organic movement. Not uniform. Responsive to something invisible. Natural deceleration, not a mechanical stop. What if animation timing had that variation? What if elements found their own resting point rather than stopping at a fixed duration?
-
-**A reflective metal surface:** Responds to who is looking and where. Alex Widua gave a button that property — using the front camera as an actual reflective surface rather than simulating the look with gradients. 10 million people watched. Responses: *"I want interfaces to feel like this again."* *"Why can't other interfaces feel like this?"* Not because the button looked different. Because it felt alive.
-
-**Heartbeats syncing at a party:** An invisible biological connection between people in the same room. What if solitary music listening had a way to surface that you are not alone?
-
-**A party ending:** A room does not empty all at once — it thins gradually. What if "session ending" felt like a room settling rather than a state flip?
-
-### Translation, Not Mimicry
-
-The goal is never to make software look like a leaf. It is to ask what a leaf *knows about movement* that a loading spinner currently does not.
-
-Widua's first attempt at the metallic button used gradients and shadows to simulate the look of metal. It felt uninspiring and cheap. The breakthrough came when he stopped trying to make it look metallic and instead gave it the *responsive property* of metal: it reflects the environment around it. Same material reference. Completely different outcome. One is decoration. The other is translation.
-
-### The Practice
-
-Before designing any interaction, look at something that is not a screen. Notice how it starts, how it stops, how it responds to change, what it leaves behind, how it behaves differently when the environment shifts. Bring one property into the thing you are making. Not as a metaphor. As a material decision.
-
-The Browser Company calls this the most useful move for anyone designing software: *look away from your screen.*
-
----
-
-## The Poetic Layer
-
-The material translation is one source. The other is more direct: starting from a specific human emotional state and asking what an interface needs to be for someone in that state.
-
-Most software is designed for a functional user — someone who wants to complete a task. But people use software when they are heartbroken. When they are lonely. When they are waiting for news that could change everything. When they are trying to celebrate something no one else knows about yet.
-
-The conventional approach treats these emotional states as background. The poetic approach makes them the brief.
-
-### Name the State, Not the Task
-
-Before designing any moment, name who is actually there.
-
-| The functional frame | The felt frame |
+| The task frame | The felt frame |
 |---|---|
 | User is saving a file | Someone just finished three weeks of work |
-| User is in onboarding | Someone decided to try something new and doesn't know yet if it was the right choice |
-| User sees an error | Someone just had their momentum broken |
+| User is in onboarding | Someone who decided to try something new and doesn't know yet if it was the right choice |
+| User sees an error | Someone who just had their momentum broken |
 | User completes a streak | Someone who needed a win today just got one |
-| User misses a streak | Someone who was already being hard on themselves just got more ammunition |
+| User misses a streak | Someone already being hard on themselves |
 
 The interface designed for the task is functional. The interface designed for the feeling is felt.
 
-### Heartbreak as a Design Brief
+### Then ask where that feeling already lives
 
-The sharpest version of this practice: design for an emotional state most software ignores entirely.
+Once you have the feeling you want to evoke, the physical world becomes your vocabulary. Look for moments — in rooms, in objects, in bodies — where that feeling already exists naturally. The behavior of those moments is your raw material.
+
+**You want solitary listening to feel like you are not alone:**
+Where does that already happen? At a party — the moment you look up and realise the room is full of people moving to the same thing. Heartbeats syncing with the music. The stranger you are dancing near without speaking. Those moments have specific behaviors: presence without interruption, synchrony without announcement, proximity without exchange. Find the digital equivalent.
+
+**You want a destructive action to have real weight:**
+Where does that already exist? A door closing in an old building. A signature on paper. The resistance before a point of no return. Translate that into motion and copy.
+
+**You want an empty state to feel like an invitation rather than a void:**
+Where does that quality already live? A door left ajar. A table set for two with one chair pulled out. Those are not voids — they are anticipations. That goes into copy and visual framing.
+
+The physical world is your vocabulary because things in it have already solved the problem of producing feelings — they have weight, organic variation, responsiveness to their environment. Software has none of those properties by default. When you find a physical moment that carries the feeling you are after, you are borrowing something that already works.
+
+### It also runs the other way
+
+You encounter a physical moment. It makes you feel something specific. You ask where that feeling should live in a digital context.
+
+You watch leaves move in wind and notice: variable, organic, responsive to something invisible, a natural deceleration that finds its own resting point. You want that quality in animation timing. That is not a metaphor. That is a material decision.
+
+Either direction is the same practice. Feeling is always the destination.
+
+### Heartbreak as a design brief
+
+The sharpest test: design for an emotional state most software ignores entirely.
 
 What does a notification feel like when someone is grieving? What does "your streak continues" feel like to someone who is numb? What does the empty state of a shared folder feel like after a breakup?
 
 These are not edge cases. They are the design brief for anyone who takes the full human seriously. If an interface only works for someone who is fine, it was not designed for people — it was designed for an ideal user who does not exist.
 
-The interfaces that resonate most are not the ones optimized for efficiency. They are the ones that, in some quiet moment, make you feel understood.
+The interfaces that resonate most are not optimized for efficiency. They are the ones that, in some quiet moment, make you feel understood.
 
 ---
 
