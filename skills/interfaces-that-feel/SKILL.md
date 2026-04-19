@@ -37,6 +37,46 @@ Not every moment deserves feeling. Knowing which moments earn acknowledgment, an
 
 ---
 
+## Where the Rules Come From
+
+The craft patterns in this skill are not rules that were invented. They come from a practice: looking at the physical world and asking what software would feel like if it borrowed from what you just noticed.
+
+### The Gap
+
+Software removed every physical property to become functional. Weight, resistance, environmental responsiveness, organic variation, the trace of use — all gone. The result is efficient, weightless, and often cold.
+
+Researcher Alex Widua named what's missing: physical objects have **Formal Properties** (weight, elasticity, reflectivity) that produce **Experiential Properties** (pleasure, joy, the sense that something is alive). Digital interfaces have none of the former, so they struggle to produce the latter.
+
+The Browser Company put it plainly: *"If software is to have soul, it must feel more like the world around it."*
+
+What people call "whimsy" is usually one physical property carried across deliberately — not decoration added on top, but something that was always true about how things behave in the world, now present in a screen.
+
+### The Translation Move
+
+Pick any physical thing. Notice one property — not what it looks like, but how it *behaves*. Then ask: what would this interface element feel like if it had that property?
+
+**Leaves in wind:** Variable, organic movement. Not uniform. Responsive to something invisible. Natural deceleration, not a mechanical stop. What if animation timing had that variation? What if elements found their own resting point rather than stopping at a fixed duration?
+
+**A reflective metal surface:** Responds to who is looking and where. Alex Widua gave a button that property — using the front camera as an actual reflective surface rather than simulating the look with gradients. 10 million people watched. Responses: *"I want interfaces to feel like this again."* *"Why can't other interfaces feel like this?"* Not because the button looked different. Because it felt alive.
+
+**Heartbeats syncing at a party:** An invisible biological connection between people in the same room. What if solitary music listening had a way to surface that you are not alone?
+
+**A party ending:** A room does not empty all at once — it thins gradually. What if "session ending" felt like a room settling rather than a state flip?
+
+### Translation, Not Mimicry
+
+The goal is never to make software look like a leaf. It is to ask what a leaf *knows about movement* that a loading spinner currently does not.
+
+Widua's first attempt at the metallic button used gradients and shadows to simulate the look of metal. It felt uninspiring and cheap. The breakthrough came when he stopped trying to make it look metallic and instead gave it the *responsive property* of metal: it reflects the environment around it. Same material reference. Completely different outcome. One is decoration. The other is translation.
+
+### The Practice
+
+Before designing any interaction, look at something that is not a screen. Notice how it starts, how it stops, how it responds to change, what it leaves behind, how it behaves differently when the environment shifts. Bring one property into the thing you are making. Not as a metaphor. As a material decision.
+
+The Browser Company calls this the most useful move for anyone designing software: *look away from your screen.*
+
+---
+
 ## Product References
 
 ### Figma — Discovered Delight
