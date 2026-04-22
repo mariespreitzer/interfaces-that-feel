@@ -463,6 +463,17 @@ Motion serves orientation and acknowledgment. Not decoration.
 | Occasional (modals, drawers, toasts) | Standard motion |
 | Rare or first-time (onboarding, milestones, celebrations) | Can carry more feeling |
 
+**Motion communicates when it matches the nature of the change:**
+
+The frequency table tells you *when* to animate. There is a second question: does animation actually help here, or just add noise?
+
+Animation aids comprehension in three conditions:
+- The change is **continuous** — a transformation unfolding over time (progress, generation, morphing)
+- The change is **causal** — one thing caused another, and the motion shows the link
+- The **user controls playback** — scrubbing, dragging, interactive animation
+
+Outside these conditions, motion adds cognitive load without communicative value. A discrete state flip — a toggle, a save confirmation, a badge appearing — is often clearer as an instant transition than as an animation. The best motion doesn't show off; it makes the change legible.
+
 **Easing:**
 
 ```css
@@ -606,3 +617,34 @@ Copy is the most underestimated layer of feel. It is the voice of the product.
 | Tap targets | Interactive elements are at least 44×44px — more for high-stakes actions |
 | Contrast | Text meets WCAG AA (4.5:1 for body, 3:1 for large text and UI components) |
 | Network states | Failed requests, slow loads, and offline states have a felt response |
+
+---
+
+## Research Backbone
+
+The claims in this skill are grounded in the following peer-reviewed work. Reach for these when a claim needs to be defended or taken further.
+
+**Emotional resonance**
+- Norman, D.A. (2004). *Emotional Design*. Basic Books. — Visceral, behavioral, and reflective levels of emotional response; empirical basis for the aesthetic-usability effect.
+- Kurosu, M. & Kashimura, K. (1995). Apparent usability vs. inherent usability. *CHI 1995*. — Original experiment: identical functionality, more beautiful design, higher perceived usability.
+- Hassenzahl, M. (2010). *Experience Design*. Morgan & Claypool. — Hedonic quality (stimulation, identity, meaning) as a first-class design goal alongside usability.
+
+**Physical world as vocabulary / embodied cognition**
+- Dourish, P. (2001). *Where the Action Is*. MIT Press. — Foundational HCI text: we know through doing and touching, not through mental modeling. The theoretical basis for borrowing physical behavioral properties.
+- Höök, K. (2018). *Designing with the Body*. MIT Press. — Somaesthetic interaction design: the designer's felt sense is a research instrument; the body is a design material.
+
+**Delight, play, and intrinsic engagement**
+- Csikszentmihalyi, M. (1990). *Flow*. Harper & Row. — Challenge-skill balance as the structural condition for interactions worth repeating beyond utility.
+- Gaver, W. et al. (2004). The Drift Table: Designing for ludic engagement. *CHI 2004*. — Canonical empirical defense of non-instrumental interaction and exploration without a goal.
+
+**Technology as lived experience**
+- McCarthy, J. & Wright, P. (2004). *Technology as Experience*. MIT Press. — Technology is felt, narrative, and temporal. An interface designed only for task completion is aesthetically and humanistically incomplete.
+
+**Designing for difficult emotional states**
+- Massimi, M. & Baecker, R.M. (2010). A death in the family. *CHI 2010*. — Ethnographic study of bereaved users; launched thanatosensitive design as a research area.
+
+**Motion**
+- Tversky, B., Morrison, J.B. & Betrancourt, M. (2002). Animation: Can it facilitate? *International Journal of Human-Computer Studies*, 57(4). — Systematic review: animation aids comprehension only for continuous change, causal sequences, and user-controlled playback. Otherwise adds load.
+
+**Anti-manipulation ethics**
+- Gray, C.M. et al. (2018). The dark (patterns) side of UX design. *CHI 2018*. — First major empirical study of dark patterns; shows they emerge from structural incentives, not individual intent.
