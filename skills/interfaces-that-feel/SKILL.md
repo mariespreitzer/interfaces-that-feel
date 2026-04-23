@@ -727,3 +727,39 @@ The claims in this skill are grounded in the following peer-reviewed work. Reach
 
 **Anti-manipulation ethics**
 - Gray, C.M. et al. (2018). The dark (patterns) side of UX design. *CHI 2018*. — First major empirical study of dark patterns; shows they emerge from structural incentives, not individual intent.
+
+**Foundational research lineage**
+- Picard, R.W. (1997). *Affective Computing*. MIT Press. — The founding argument: emotion is not opposed to intelligence, it is constitutive of it. A system that cannot recognise or respond to affect is by definition less capable than one that can. The research lineage this entire skill sits in.
+
+**Experience taxonomy**
+- Forlizzi, J. & Battarbee, K. (2004). Understanding experience in interactive systems. *DIS 2004*, pp. 261–268. ACM. — Three levels of experience: fluent (automatic), cognitive (requires interpretation), expressive (generates emotional response). Co-experience: experience is co-produced in social contexts. Maps directly onto which Frogger characteristics apply at which interaction tier.
+
+**Cognitive psychology of felt quality**
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux. — System 1 (fast, automatic) processes animation, haptics, micro-feedback. System 2 (slow, deliberate) reads help text. Felt quality operates on System 1, bypassing deliberate evaluation. This explains the mechanism: Dynamics, Modality, and Expression characteristics all hit System 1.
+- Kahneman, D., Fredrickson, B.L., Schreiber, C.A. & Redelmeier, D.A. (1993). When more pain is preferred to less. *Psychological Science*, 4(6), 401–405. — Peak-end rule: remembered experience is shaped disproportionately by the most intense moment and the final moment. A mediocre flow with a satisfying, weighted completion state is remembered as better than its parts. The scientific underpinning of why completion states are not decoration.
+
+**Interaction Frogger**
+- Wensveen, S.A.G., Djajadiningrat, J.P. & Overbeeke, C.J. (2004). Touch me, hit me and I know how you feel: Exploiting a touch screen for starters. *DIS 2004*, pp. 48–52. ACM. — The primary source: six coupling characteristics (Time, Location, Direction, Dynamics, Modality, Expression) as the analytical instrument for felt quality in interactive systems.
+
+**Game feel / applied interaction**
+- Swink, S. (2008). *Game Feel: A Game Designer's Guide to Virtual Sensation*. Morgan Kaufmann. — The most rigorous applied treatment of felt quality in interactive systems from the game design tradition. Input-to-response latency analysis, real-time control in simulated space, juiciness (high feedback density around an action without changing the underlying mechanic). Maps precisely onto the Frogger's Time and Expression characteristics.
+- Jonasson, M. & Purho, P. (2012). Juice It or Lose It. GDC Europe 2012. — Live demonstration of the same Breakout clone progressively layered with squash/stretch, screenshake, particle effects, and sound. The clearest available demo of what all six Frogger characteristics set intentionally looks like at maximum expression.
+
+**Practitioner craft**
+- Freiberg, R. (2023). Invisible details of interaction design. *Every.to*. And *Devouring Details* (2024). — The practitioner implementation layer beneath the Frogger model. Where Wensveen specifies coupling characteristics abstractly, Freiberg specifies what each looks like in HTML, CSS, and JS. The most thorough published codification of craft at the component level currently available.
+- Kowalski, E. (2023). *Animations on the Web* course and animations.dev. — The restraint principle quantified: his 300ms ceiling and the principle of not animating high-frequency interactions map directly onto the Frogger's Time characteristic with practitioner-validated numbers.
+- Comeau, J. (2023). A friendly introduction to spring physics. *joshwcomeau.com*. And *Whimsical Animations* course. — Mechanically explains why spring physics produces organic motion: it borrows the acceleration/deceleration profile of real physical objects. The implementation-level bridge between Dourish's embodied cognition and CSS timing functions.
+- Argyle, A. CSS scroll-driven animations and view transitions, developer.chrome.com / Google Chrome DevRel. — Spatial memory argument for view transitions: the user knows where they came from because the transition preserves directionality. Grounds the Frogger's Location and Direction characteristics in cognitive science.
+
+**Motion — empirical**
+- Huhtala, J. et al. (2010). Animated UI transitions and perception of time. *CHI 2010*, pp. 1339–1342. ACM. — Showing destination content earlier (even before the transition animation completes) dominates perceived speed over animation duration. Grounds the entering-element timing guidance: content arrival matters more than transition beauty.
+
+**Industrial design lineage**
+- Rams, D. Ten principles for good design. Formulated at Braun; published *Domus* No. 748 (1993). — "Nothing must be arbitrary or left to chance." The philosophical origin of the Frogger approach: naming which characteristics are intentional vs. left to defaults is exactly what Rams means. "Good design is honest" is the industrial design ancestor of the anti-manipulation ethics here.
+- Teenage Engineering — product design as documented across the TE website and design press. — The physical-world reference for Resistant and Decisive. The TP-7 field recorder's rotating disk makes the physical act of recording a bodily gesture rather than a menu action. Competence as the emotional payoff — using a TE product makes you feel like someone who understands a system.
+
+**Critical and speculative design**
+- Dunne, A. & Raby, F. (2001). *Design Noir: The Secret Life of Electronic Objects*. August/Birkhäuser. And (2013). *Speculative Everything*. MIT Press. — The philosophical basis for the Premise Question. Their distinction between the probable, the plausible, the possible, and the preferable maps directly onto the Premise Question routing gate. When the premise is radical, execution is forced to match its ambition.
+
+**Applied case studies**
+- Linear — "A Calmer Interface for a Product in Motion" (linear.app/now, 2023–2024). — The most documented B2B case study for the efficiency/competence register. Linear's brief demonstrates that restraint is not the absence of craft; it is the application of craft to the question of what not to do. Designers work from screenshots of the live app, not from a design tool — the closest available practitioner equivalent of the Inside-Out Brief.
