@@ -14,6 +14,19 @@ npx skills add mariespreitzer/interfaces-that-feel
 
 ---
 
+## In practice
+
+Four comparisons — the same interaction with and without intentional coupling decisions.
+
+| | |
+|---|---|
+| ![Witnessed vs Default](assets/witnessed.gif) | ![Decisive vs Default](assets/decisive.gif) |
+| **Witnessed** — message travels to its destination vs. silent disappear | **Decisive** — fires on press vs. fires on release |
+| ![Grounded vs Default](assets/grounded.gif) | ![Punctuated vs Default](assets/punctuated.gif) |
+| **Grounded** — compress at commit, weighted exit vs. instant fade | **Punctuated** — attack then decay vs. single flat slide |
+
+---
+
 ## The practice
 
 This practice works inside-out. Most interfaces are built outside-in: design the component, specify its attributes, ship it, observe how it feels in use. Feel is a byproduct — if it's considered at all.
