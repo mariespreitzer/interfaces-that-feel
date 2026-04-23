@@ -349,44 +349,6 @@ Before applying this framework, identify the product's primary emotional registe
 
 ---
 
-## The Feel Framework
-
-Before any product decision, answer these three questions in order.
-
-### 1. Does it have a voice?
-
-Read the copy out loud. Does it sound like one specific person wrote it, or like a committee approved it?
-
-Voice is not wit or jokes — it's specificity. Knowing what the user is doing and speaking to that exact moment. Voiceless copy sounds like it applies to everything. Copy with voice is written for this screen, this user, this action.
-
-### 2. Is the emotion earned?
-
-Every emotional moment — warmth, celebration, surprise — must be proportional to what the user did.
-
-| Action | What it earns |
-|---|---|
-| Every save, every click | Nothing extra. Correct, fast feedback. |
-| Completing a significant step | Quiet, clear confirmation |
-| Real milestone (first X, streak, 100%) | Proportional celebration |
-| First-time experience | Warmth and orientation |
-| Destructive action | A deliberate pause. Confirm before proceeding. |
-| Long wait | Progress indication with specific context |
-| Success after friction | Extra acknowledgment — the user worked for this |
-
-Confetti on a routine save is not earned. A warm message on completing a 7-day streak is.
-
-### 3. Does it know when to step back?
-
-The product that tries to feel at every moment is exhausting. The question is not "how do I add feeling here?" — it's "does this moment deserve feeling, or does it just need to work?"
-
-Arc Browser doesn't animate every tab switch. Amie doesn't celebrate every calendar event. Figma doesn't surface its mini games until you find them. They reserve expression for moments where it adds meaning.
-
-> Restraint is the skill.
-
-**The decision rule:** Default to restraint. Apply delight only when a trigger condition appears in the earned emotion table above, or when the felt state is explicitly a high-stakes positive moment. If you are unsure whether a moment earns feeling, it doesn't. Do less.
-
----
-
 ## Product References
 
 ### Figma — Discovered Delight
