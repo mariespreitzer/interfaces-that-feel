@@ -1,153 +1,101 @@
-# Interfaces That Feel
+# interfaces that feel
 
-A living practice for designing interaction with emotional intelligence. Every decision — timing, easing, spring resistance, haptic, copy — is made from the inside out: start with the felt state of the person, not the task.
+> Most AI-generated UIs are technically correct and emotionally empty. This skill fixes that.
 
-Emotional resonance is a through-line from premise to pixel. You can fail it at either end.
+A Claude Code skill built on one principle: start with the felt state of the person — not the task. Use the physical world as vocabulary to discover or articulate that feeling. Then bring it into the digital.
 
----
+Works across Claude Code, Codex CLI, Cursor, and any agent that supports the SKILL.md standard.
 
-## What's here
+## Install
 
-| File | What it does |
-|---|---|
-| [`qualities.html`](qualities.html) | Interactive browser for all 15 felt vocabulary terms — use this to decide which quality belongs on which micro-interaction |
-| [`comparisons.html`](comparisons.html) | Four side-by-side comparisons showing each quality against the default — Witnessed, Decisive, Grounded, Punctuated |
-| [`vocabulary-implementation-specs.md`](vocabulary-implementation-specs.md) | Spring params, CSS easings, durations, haptic calls, and critical failure notes for all 15 terms |
-| [`vocabulary-frogger-map.md`](vocabulary-frogger-map.md) | Frogger recipe for each term: which of the 6 coupling characteristics are load-bearing |
-| [`inside-out-brief-template.md`](inside-out-brief-template.md) | One-page brief to fill before any interaction design work |
-
----
-
-## The Quality Browser
-
-Open [`qualities.html`](qualities.html) in a browser. All 15 terms, live and interactive, grouped by category.
-
-**How to use it:** When you're designing a micro-interaction and you know roughly what it should feel like but not exactly — open this page and feel your way through the category. Weight vs Resistance vs Rhythm vs Echo. Tap each demo until you find the one that matches the emotional intent.
-
-### The 15 terms at a glance
-
-**Weight** — how much the interaction costs
-| Term | The feeling |
-|---|---|
-| Settled | Completes at its own pace. Overdamped, no bounce. |
-| Grounded | Consequential. Compresses at commit, weighted exit. |
-| Weightless | Near-zero effort. Velocity continuity mandatory. |
-| Featherweight | Light, explicitly reversible. Undo structurally visible. |
-
-**Resistance** — how much the interface pushes back
-| Term | The feeling |
-|---|---|
-| Decisive | Snaps at action. Fires on touchDown, not touchUpInside. |
-| Resistant | Gives way only at threshold. Haptic at threshold, not completion. |
-| Tentative | Barely registers. Reversibility is in the physics, not the copy. |
-| Yielding | Carries your momentum. Zero stiffness during gesture, velocity-seeded on release. |
-
-**Rhythm** — the temporal shape
-| Term | The feeling |
-|---|---|
-| Gathered | Ambient recedes, focal expands. A held breath before action. |
-| Patient | Loading is preparation. 2.5s shimmer, unhurried. No urgency markers. |
-| Punctuated | Attack then decay — two animations, not one. Haptic at the peak. |
-
-**Echo** — how the system responds after
-| Term | The feeling |
-|---|---|
-| Heard | Specific acknowledgment. "Your draft is saved" not "Saved." |
-| Echoed | Stone then ripple. Secondary effect originates spatially from primary. |
-| Absorbed | No feedback. The state change is the confirmation. |
-| Witnessed | The action crosses a boundary. Travel animation from origin to destination. |
-
----
-
-## The Comparisons
-
-Open [`comparisons.html`](comparisons.html). Each comparison puts the felt quality side-by-side with what ships by default.
-
-![Witnessed vs Default](assets/witnessed.gif)
-
-![Decisive vs Default](assets/decisive.gif)
-
-![Grounded vs Default](assets/grounded.gif)
-
-![Punctuated vs Default](assets/punctuated.gif)
-
-| Comparison | What it shows |
-|---|---|
-| Witnessed vs Default | Action traveling to a destination vs silent disappear |
-| Decisive vs Default | TouchDown snap vs touchUpInside delay |
-| Grounded vs Default | Compressed commit + weighted exit vs instant completion |
-| Punctuated vs Default | Attack-decay two-phase vs single flat animation |
-
----
-
-## The Inside-Out Brief
-
-Before any interaction design work, fill out [`inside-out-brief-template.md`](inside-out-brief-template.md).
-
-The sequence is mandatory — each field unlocks the next:
-
-```
-1. The Moment      — user's emotional state arriving / what they want to feel leaving
-2. The Felt Quality — name it precisely from the vocabulary
-3. The Frogger Recipe — which of 6 coupling characteristics are load-bearing
-4. Material Implications — derive timing, dynamics, modality, expression from the recipe
-5. The Default You're Replacing — what would ship if no one thought about this
-6. Success Check — one observable user behavior, not a metric
+```bash
+npx skills add mariespreitzer/interfaces-that-feel
 ```
 
-If you can't answer field 2, you're not ready to design the interaction.
-
 ---
 
-## The Interaction Frogger
+## The practice
 
-The Frogger (Wensveen et al., DIS 2004) maps how tightly a response is coupled to the action. Six characteristics determine felt quality:
+This practice works inside-out. Most interfaces are built outside-in: design the component, specify its attributes, ship it, observe how it feels in use. Feel is a byproduct — if it's considered at all.
 
-| Characteristic | The question |
+Inside-out inverts this. Name the felt quality first — before you know what it looks like, before you know what the interaction is. Work backwards from the named quality to the material decisions.
+
+Every interaction attribute — timing, easing, spring resistance, scroll momentum, haptic pattern — shapes experience. These are aesthetic decisions with experiential consequences. The iOS spring curve is not a neutral choice. A 200ms response is not a neutral choice. Own these decisions. Specify them from felt intent, not from what the framework ships by default.
+
+Before designing any interaction, name who is actually there. Not the action they are taking. The emotional truth underneath it.
+
+| The task frame | The felt frame |
 |---|---|
-| Time | When does the response happen relative to the action? |
-| Location | Where does the response appear relative to where the action happened? |
-| Direction | Does the response direction match the action direction? |
-| Dynamics | Does the response weight match the action weight? |
-| Modality | Does the response modality match the action modality? |
-| Expression | Does the response register how the action was performed? |
+| User is saving a file | Someone who just finished three weeks of work |
+| User is in onboarding | Someone who decided to try something new and doesn't know yet if it was the right choice |
+| User sees an error | Someone whose momentum was just broken |
+| User completes a streak | Someone who needed a win today and just got one |
+| User misses a streak | Someone already being hard on themselves |
 
-**Dynamics is load-bearing for almost everything.** Most products leave all six at framework defaults. Naming which ones you're setting intentionally is the design act.
+The interface designed for the task is functional. The interface designed for the feeling is felt.
 
-Full recipes for each of the 15 terms are in [`vocabulary-frogger-map.md`](vocabulary-frogger-map.md).
+### The physical world as vocabulary
 
----
+Once you have the feeling, ask where it already exists in the physical world. The behavioral properties of those moments are your raw material — not as metaphor, but as a material decision.
 
-## The Skill
+**You want completion to allow rest:** where does that already live? Putting down a heavy bag. Pushing a plate slightly away after a meal. The weight releases, nothing immediately demands the next action. That goes into your post-completion state — no prompt for what's next, animation that settles.
 
-The Claude Code skill (`/interfaces-that-feel`) is auto-invoked on any product ideation or UI/UX work. It covers:
+**You want a destructive action to have real weight:** a door closing in an old building. A deadbolt turning. The resistance before a point of no return. Animation that slows at the threshold. Copy that names the consequence. A moment where the user has to mean it.
 
-- Inside-out practice framework
-- Heartbreak design briefs (4 fully developed)
-- Physical world vocabulary (16 entries)
-- Calibration by emotional register
-- The Feel Framework (voice / earned emotion / step back)
-- Product references (Figma, How We Feel, Headspace, Gentler Streak, Amie, Arc)
-- Anti-patterns
-- Motion, keyboard, copy checklists
+The full vocabulary (16 entries) is in the SKILL.md.
 
----
+### Heartbreak as a design brief
 
-## Recording the demos
+The sharpest test: design for an emotional state most software ignores entirely.
 
-The GIF slots above are placeholders. To capture them:
+**"Your streak continues" — for someone who is numb.** The default "Keep it up!" lands wrong. Instead: "You kept going. 7 days." No emoji. Option to pause the streak without losing it. *Celebration is context-dependent. The system doesn't know what it cost.*
 
-1. Open the HTML file in Chrome
-2. Use [Rottenwood](https://rottenwood.com/) or [GIPHY Capture](https://giphy.com/apps/giphycapture) to record a specific element
-3. Or: open Chrome DevTools → More tools → Animations panel to inspect timing
-4. Drop the recorded `.gif` files into `assets/` — filenames match the `<!-- gif: -->` comments above
+**An empty shared folder after a breakup.** The folder isn't empty — it was cleared. "Folder cleared" with a soft timestamp is more honest than "Add files to get started." Or nothing at all. Some silences should be respected. *Empty states are not always absences. Some are endings.*
 
-For screen recording on macOS: `Cmd + Shift + 5` → select area → record. Export as GIF with [Gifski](https://gif.ski/) for best quality.
+If an interface only works for someone who is fine, it was not designed for people — it was designed for an ideal user who does not exist.
 
 ---
 
-## Research foundation
+## The feel framework
 
-The practice is grounded in peer-reviewed HCI and design research. Full bibliography in the installed skill file at `~/.claude/skills/interfaces-that-feel/SKILL.md` under Research Backbone.
+**Does it have a voice?** Read the copy out loud. Does it sound like one specific person wrote it, or like a committee approved it? Voice is specificity — written for this screen, this user, this action.
 
-Key anchors: Norman (2004) on emotional design, Wensveen et al. (2004) on Interaction Frogger, Kuenen (2018) on inside-out design as method, Dourish (2001) on embodied cognition, Tversky et al. (2002) on when animation aids comprehension.
+**Is the emotion earned?** Confetti on a routine save is not earned. A warm message on completing a 7-day streak is. Every emotional moment must be proportional to what the user did.
+
+**Does it know when to step back?** The product that tries to feel at every moment is exhausting. Default to restraint. Apply delight only when a moment genuinely earns it — if you're unsure, it doesn't.
+
+> Restraint is the skill.
+
+---
+
+## Product references
+
+Each reference teaches one principle.
+
+**Figma — personality is discovered, not announced.** The mini games live behind keyboard shortcuts. No badge, no "Did you know?" FigJam highfives happen because *you* waved first. The product meets the gesture and steps back. If the product has to tell you it's delightful, it's not.
+
+**How We Feel — no preferred emotional state.** Logging grief gets the same interface as logging joy. Nothing is calibrated to steer you toward a better feeling. Most wellness apps fail this test completely.
+
+**Headspace — pacing as care.** Moving at the speed of attention is the point, not a compromise. Most apps optimize for time-in-app. Headspace optimizes for leaving the app feeling different than when you arrived.
+
+**Gentler Streak — designing for human inconsistency.** Rest is part of the streak. The product's model of the user includes being tired, sick, and overwhelmed. It redesigned the core mechanic around who actually uses fitness apps.
+
+**Amie — time is social.** People are a first-class object. A meeting isn't just a block of time — it's with someone. Most calendars treat time as a grid. Amie treats it as the medium through which you relate to people.
+
+**Arc — the tool becomes yours through use.** Spaces, boosts, custom themes. Arc accumulates into a personal environment. The longer you use it, the more it feels like yours.
+
+---
+
+## Quick rules
+
+**Motion:** never from `scale(0)` — start at `scale(0.95), opacity: 0`. Never `ease-in` on entering elements. Slow in, fast out. If something happens hundreds of times a day, don't animate it.
+
+**Copy:** write to one person. Errors are support, not blame. Empty states are invitations. Loading messages name what's loading.
+
+**Anti-patterns:** confetti on routine saves, "Herding pixels", quirky 404s on otherwise cold products, `transition: all`, animations that animate everything.
+
+The full rules, easing values, accessibility requirements, and review checklist are in the SKILL.md.
+
+---
+
+Built by [Marie Spreitzer](https://github.com/mariespreitzer) — Interaction Designer.

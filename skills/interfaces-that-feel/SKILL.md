@@ -11,6 +11,8 @@ Technical correctness is the floor. The ceiling is: does this product know you'r
 
 Warmth isn't decoration — it lives in every layer. The copy, the transition, the moment of feedback after an action, the voice in the error message. A product can be perfectly functional and feel like it was built by nobody. That's a failure.
 
+Emotional resonance is a through-line from premise to pixel. You can fail it at either end.
+
 ---
 
 ## The Practice
@@ -142,6 +144,63 @@ What to change:
 *The principle revealed: the scale of celebration should match the scale of effort. The product needs to know the difference.*
 
 The interfaces that resonate most are not optimized for efficiency. They are the ones that, in some quiet moment, make you feel understood.
+
+---
+
+## The Interaction Frogger — Coupling Characteristics
+
+The Interaction Frogger (Wensveen et al., DIS 2004) maps how tightly an interface response is coupled to the user's action. Six characteristics determine felt quality. Most products leave all six at framework defaults. Naming which ones you're setting intentionally is the design act.
+
+| Characteristic | The question it asks |
+|---|---|
+| **Time** | When does the response happen relative to the action? At gesture start, at commit, at completion? |
+| **Location** | Where does the response appear relative to where the action happened? |
+| **Direction** | Does the response direction match the action direction — or contradict it? |
+| **Dynamics** | Does the response weight match the action weight? Light tap → light response. Deliberate press → heavier response. |
+| **Modality** | Does the response modality match the action modality? A physical press that triggers only a visual response is a modality mismatch. |
+| **Expression** | Does the response register *how* the action was performed — fast or slow, confident or hesitant? |
+
+**Dynamics is load-bearing for almost everything.** It appears in 10 of the 15 felt quality terms. It's the most neglected characteristic in digital products because events are treated as binary. Where most products leave the most on the table.
+
+**Expression is the amplifier.** It doesn't produce felt quality alone — it personalizes whatever the other characteristics produce. Heard without Expression is just Confirmed. Grounded without Expression is just heavy.
+
+### The 15 Felt Quality Vocabulary
+
+Full implementation specs at `~/Projects/private/interfaces-that-feel/vocabulary-implementation-specs.md`. Frogger recipe for each at `vocabulary-frogger-map.md`.
+
+**Weight** — how much the interaction costs to perform
+- **Settled** · Completes at its own pace. Overdamped, no bounce. 400–550ms.
+- **Grounded** · Consequential. Compresses at commit, then a weighted exit. Haptic fires at touchDown.
+- **Weightless** · Near-zero effort. Critically damped, 150–220ms. Velocity continuity is mandatory.
+- **Featherweight** · Light, explicitly reversible. Acknowledges without committing. Undo is structurally visible.
+
+**Resistance** — how much the interface pushes back
+- **Decisive** · Snaps at the moment of action. Fires on touchDown, not touchUpInside. The click IS the event.
+- **Resistant** · Gives way only at threshold. Haptic fires at threshold, not completion.
+- **Tentative** · Barely registers. The reversibility is in the physics, not the copy.
+- **Yielding** · Carries your momentum. Zero stiffness during gesture, velocity-seeded on release.
+
+**Rhythm** — the temporal shape of the interaction
+- **Gathered** · Ambient recedes, focal expands. A held breath before the action. Requires stopping ambient animations system-wide.
+- **Patient** · Loading is preparation. 2.5s shimmer, unhurried transitions. No urgency markers anywhere.
+- **Punctuated** · Attack then decay — two animations, not one. Haptic fires at the peak between them.
+
+**Echo** — how the system responds after the action
+- **Heard** · Specific acknowledgment. "Your draft is saved" not "Saved." Specificity is the acknowledgment.
+- **Echoed** · Stone then ripple. Secondary effect originates spatially from the primary.
+- **Absorbed** · No feedback. The state change is the confirmation. Requires a legible new state.
+- **Witnessed** · The action crosses a boundary. Travel animation from origin to destination.
+
+### The Inside-Out Brief
+
+Before any material decision on a new interaction, fill out the brief at `~/Projects/private/interfaces-that-feel/inside-out-brief-template.md`. Sequence is mandatory — each field unlocks the next:
+
+1. **The Moment** — User's emotional state arriving / what they want to feel leaving
+2. **The Felt Quality** — Name it precisely from the vocabulary. If you can't name it, you haven't found it.
+3. **The Frogger Recipe** — Which of the 6 characteristics are load-bearing for this quality?
+4. **Material Implications** — Derive timing, dynamics, modality, expression from the recipe
+5. **The Default You're Replacing** — What would ship if no one thought about this?
+6. **Success Check** — One observable user behavior, not a metric
 
 ---
 
@@ -396,6 +455,8 @@ This is a product decision, not a UX one. The system was designed to accommodate
 
 The failure mode it avoids: gamification built on an idealized user who doesn't get tired, sick, or overwhelmed.
 
+*Gentler Streak answers a premise question: "What if rest was part of the streak?" That decision is made before any interaction is designed. The micro-interactions are good — but removing them wouldn't destroy the product. Removing the premise would.*
+
 ### Amie — Time Is Social
 
 Amie is the reference for one principle: **scheduling is about people, not slots.**
@@ -635,6 +696,39 @@ Copy is the most underestimated layer of feel. It is the voice of the product.
 | Tap targets | Interactive elements are at least 44×44px — more for high-stakes actions |
 | Contrast | Text meets WCAG AA (4.5:1 for body, 3:1 for large text and UI components) |
 | Network states | Failed requests, slow loads, and offline states have a felt response |
+
+---
+
+## The Premise Question
+
+If the vocabulary is working, the Frogger recipe is right, the interactions are considered — and it still feels like it's missing something at the center — this is where to look.
+
+The question is not about the micro-interaction. It's about the premise.
+
+The most quietly radical products surprise you with what they're even *for*. Not "a calendar app with better UX" — but "what if scheduling felt like planning something good?" Not "streaks but nicer" — but "what if rest was built into the streak itself?" This is **concept-level whimsy**: the entire premise is the surprise, not just the execution.
+
+| Concept | The "What if" | The premise surprise |
+|---|---|---|
+| Interfaces for the Brokenhearted | What if we designed specifically for heartbreak? | The user state everyone ignores becomes the entire brief |
+| PraiseOS | What if the OS praised you instead of demanding from you? | Inverts the power relationship between tool and user |
+| Roll the Dice | What if chance was a feature, not a failure mode? | Randomness as delight rather than error |
+| Gentler Streak | What if rest was part of the streak? | Core mechanic redesigned around human inconsistency |
+| How We Feel | What if the app had no preferred emotional state? | Wellness without an agenda |
+
+The distinction matters because **good execution of a flat premise is still flat**. A beautifully animated calendar with precise interactions is still just a calendar. Concept-level whimsy asks the prior question: should this even be a calendar?
+
+**The test:** Can you summarize the concept in a "What if...?" that surprises someone? If yes — you're working with concept-level whimsy, and execution must match the premise's ambition. If no — you're working from a premise that exists, and execution is the entire lever.
+
+**Signals that the premise is the problem:**
+- The brief feels like polishing rather than designing
+- The emotional register feels predetermined — the product decided in advance how everyone should feel
+- You're adding interactions to compensate for something missing at the center
+- The product is technically correct but nobody cares about it
+
+**Routing gate:**
+If the premise is flat: no vocabulary, Frogger recipe, or motion craft will save it. The work is upstream — in the product question, the brief, the thing you're actually building. This skill does not apply to that problem. Go back to the brief.
+
+If the premise is resonant: this skill is the full toolkit. Start with the felt state.
 
 ---
 
