@@ -16,6 +16,12 @@ npx skills add mariespreitzer/interfaces-that-feel
 
 ## The practice
 
+This practice works inside-out. Most interfaces are built outside-in: design the component, specify its attributes, ship it, observe how it feels in use. Feel is a byproduct — if it's considered at all.
+
+Inside-out inverts this. Name the felt quality first — before you know what it looks like, before you know what the interaction is. Work backwards from the named quality to the material decisions.
+
+Every interaction attribute — timing, easing, spring resistance, scroll momentum, haptic pattern — shapes experience. These are aesthetic decisions with experiential consequences. The iOS spring curve is not a neutral choice. A 200ms response is not a neutral choice. Own these decisions. Specify them from felt intent, not from what the framework ships by default.
+
 Before designing any interaction, name who is actually there. Not the action they are taking. The emotional truth underneath it.
 
 | The task frame | The felt frame |

@@ -19,6 +19,24 @@ This skill comes from one thing: starting with a feeling and asking where it alr
 
 Most interfaces are designed around a task. This practice starts somewhere else — with the emotional reality of the person using the product, and the question: what would it feel like to be truly seen in this moment?
 
+### The directionality problem
+
+This practice works inside-out. Most interfaces are built outside-in: design the component, specify its attributes, ship it, observe how it feels in use. Feel is a byproduct — if it's considered at all.
+
+Inside-out inverts this. Name the felt quality first — before you know what it looks like, before you know what the interaction is. "This should feel like making a decision you're ready for, not like being asked something." Then: what timing, resistance, animation arc, haptic produces that? Work backwards from the named quality to the material decisions.
+
+The reason outside-in dominates: products are evaluated on task completion, conversion, retention — not on whether the interaction feel matches the emotional intent. When no one is responsible for feel quality, it gets decided by whoever set the framework defaults.
+
+### The medium is never neutral
+
+Every interaction attribute — timing, easing, spring resistance, scroll momentum, haptic pattern, the duration between action and feedback — shapes experience. These are aesthetic decisions with experiential consequences.
+
+They are treated as engineering defaults. The iOS spring curve is not a neutral choice. A 200ms response is not a neutral choice. Loose scroll momentum is not a neutral choice. Each produces a felt quality that either aligns with or contradicts the emotional intent of the interface.
+
+Own these decisions. Specify them from felt intent, not from what the framework ships by default.
+
+---
+
 ### Start with the felt state
 
 Before designing any interaction, name who is actually there. Not the action they are taking. The emotional truth underneath it.
@@ -645,6 +663,11 @@ The claims in this skill are grounded in the following peer-reviewed work. Reach
 
 **Motion**
 - Tversky, B., Morrison, J.B. & Betrancourt, M. (2002). Animation: Can it facilitate? *International Journal of Human-Computer Studies*, 57(4). — Systematic review: animation aids comprehension only for continuous change, causal sequences, and user-controlled playback. Otherwise adds load.
+
+**Interaction aesthetics and feel**
+- Kuenen, S. (2018). *Aesthetics of Being Together*. PhD thesis, Umeå Institute of Design. — Inside-out design as method; the medium is never neutral; structural mechanisms of mediating interaction (Point of Summation, Signal/Relation, Channel/Space/Thing); diagnosis of why aesthetics of interaction theory doesn't translate to shipped products.
+- Ross, P. & Wensveen, S. (2010). Designing behavior in interaction. *International Journal of Design*, 4(2). — Aesthetic Interaction as four principles: practical use, social/ethical dimensions, dynamic form, bodily/cognitive/emotional/social skills. The dominant academic framework for what "good" interaction feel looks like.
+- Hallnäs, L. & Redström, J. (2002). From use to presence. *ACM Transactions on Computer-Human Interaction*, 9(2). — Foundational argument that products should be designed for their existential presence in a life, not just for efficient use.
 
 **Anti-manipulation ethics**
 - Gray, C.M. et al. (2018). The dark (patterns) side of UX design. *CHI 2018*. — First major empirical study of dark patterns; shows they emerge from structural incentives, not individual intent.
