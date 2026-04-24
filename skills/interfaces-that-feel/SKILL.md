@@ -179,6 +179,33 @@ The Interaction Frogger (Wensveen et al., DIS 2004) maps how tightly an interfac
 
 **Expression is the amplifier.** It doesn't produce felt quality alone — it personalizes whatever the other characteristics produce. Heard without Expression is just Confirmed. Grounded without Expression is just heavy.
 
+### Worked example — a message send that feels like it traveled
+
+Most chat interfaces treat send as a state flip: message appears in the sent column, input clears. Nothing conveys that it went somewhere.
+
+**The moment:** Someone just sent a message that mattered — a long one, or a difficult one. They need to feel that it left.
+
+**Felt quality:** Witnessed — the action crossed a boundary. Something received it.
+
+**Frogger recipe:**
+
+| Characteristic | Setting | Why |
+|---|---|---|
+| Time | Delay — confirmation arrives after a beat, not immediately | The gap communicates that something happened between here and there |
+| Location | Response originates away from the input — from the message bubble, not from the send button | Spatially reinforces that the message moved |
+| Direction | Outward — the animation moves away from the composer, toward the conversation | Matches the physical direction of sending |
+| Dynamics | Moderate — the departure has weight, the arrival is lighter | The message left with intent; it arrived |
+| Modality | Soft haptic at send (departure), distinct checkmark animation at delivery (arrival) | Two events, two sensory moments — one on each side of the boundary |
+| Expression | Absent here — every message should feel equally witnessed regardless of how fast it was typed | Expression would introduce noise; the quality is categorical, not personalized |
+
+**Material decision:** Two-phase animation. Phase 1: the message compresses slightly and lifts out of the composer (150ms, ease-out). Phase 2: a read receipt or delivery indicator fades in from the right (200ms delay, then 120ms ease-out). Haptic fires at phase 1 commit, not at phase 2.
+
+**The default you're replacing:** Message appears instantly in sent state, input clears, nothing moves. Reads as: the system accepted the input. Not: your message went somewhere.
+
+**Success check:** The user glances at the message after sending rather than immediately typing again. The animation gave them something to watch — which means it communicated travel.
+
+---
+
 ### The 15 Felt Quality Vocabulary
 
 Full implementation specs at `vocabulary-implementation-specs.md` (in this skill's directory). Frogger recipe for each at `vocabulary-frogger-map.md`.
@@ -344,7 +371,7 @@ This skill has four entry points. Find the one that matches where you are.
 Start with the Physical World Vocabulary. Find the cluster that matches your feeling. Extract the behavioral property. Then move to the Inside-Out Brief to make it a material decision.
 
 **Build** — You have a concept, a brief, or an idea that isn't a design yet.
-Start with the Premise Question: is there a "what if?" that surprises someone? Then Calibrate First to set the register. Then the Inside-Out Brief for each interaction that matters.
+If it's your own concept: start with the Premise Question — is there a "what if?" that surprises someone? If you're executing on a client's or organisation's existing premise, skip the Premise Question. Either way: Calibrate First to set the register, then the Inside-Out Brief for each interaction that matters.
 
 **Improve** — You have a design and something is off — generic, wrong register, not quite landing.
 Start with the Review Checklist to find what's missing. Then run the Frogger on the interactions that feel wrong: which characteristics are sitting at framework defaults? Find the vocabulary term that names what should be there instead.
@@ -455,6 +482,27 @@ The emotional payoff is ownership. You feel like you built something, not just u
 | You return to Arc | Your environment is there — unchanged | Persistence as a form of trust |
 
 The failure mode it avoids: designing a product that feels the same on day one and day three hundred.
+
+---
+
+### Linear — Restraint Is the Craft
+
+Linear is the reference for one principle: **the absence of noise is a design decision, not a default.**
+
+Linear's brief — surface exactly what you need, when you need it — is the efficiency/competence register pushed to its limit. Nothing celebrates. Nothing encourages. The interface steps aside and lets the work happen. Animations are present but almost imperceptible. Copy is exact. Empty states are clean, not charming. The product's personality is its precision.
+
+The notable practice: Linear's designers work from screenshots of the live application, not from design tools. Every decision is anchored to the actual interactive artifact. This is the closest available practitioner equivalent of the Inside-Out Brief — start from what it is, not from what it could look like.
+
+| Moment | What Linear does | The principle |
+|---|---|---|
+| You complete an issue | Quiet strike-through, no fanfare | Completion is its own reward |
+| You're in deep focus | No ambient animation, no pulsing badges | The interface earns the work state by not interrupting it |
+| The list is empty | Clean white, no illustration, no encouragement | Absence is allowed to just be absence |
+| You ship a release | Understated — the release note is the celebration | The artifact is the acknowledgment |
+
+The failure mode it avoids: adding warmth or personality to a product whose users experience warmth as interference. Restraint at this register isn't the product being cold — it's the product respecting what its users are trying to do.
+
+*Linear answers a calibration question before any interaction is designed: "Who is using this and what are they trying not to be distracted from?" The answer determines what the ceiling is — not delight, but invisible competence.*
 
 ---
 
