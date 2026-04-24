@@ -15,6 +15,24 @@ Emotional resonance is a through-line from premise to pixel. You can fail it at 
 
 ---
 
+## Where to Start
+
+This skill has four entry points. Find the one that matches where you are.
+
+**Translate** — You have a raw material: a feeling you want to evoke, a physical moment that made you feel something, a reference you want to bring into digital. You're not designing yet — you're sourcing.
+Start with the Physical World Vocabulary. Find the cluster that matches your feeling. Extract the behavioral property. Then move to the Inside-Out Brief to make it a material decision.
+
+**Build** — You have a concept, a brief, or an idea that isn't a design yet.
+If it's your own concept: start with the Premise Question — is there a "what if?" that surprises someone? If you're executing on a client's or organisation's existing premise, skip the Premise Question. Either way: Calibrate First to set the register, then the Inside-Out Brief for each interaction that matters.
+
+**Improve** — You have a design and something is off — generic, wrong register, not quite landing.
+Start with the Review Checklist to find what's missing. Then run the Frogger on the interactions that feel wrong: which characteristics are sitting at framework defaults? Find the vocabulary term that names what should be there instead.
+
+**Push** — You have a design that's working. You want more from it.
+Name the quality that's already present — find it in the vocabulary. Run the Frogger to see which characteristics are load-bearing for that quality. Use the implementation specs to go further on each one.
+
+---
+
 ## The Practice
 
 This skill comes from one thing: starting with a feeling and asking where it already exists in the world.
@@ -358,26 +376,6 @@ Digital application: Session end states, signout flows, task completion. No dark
 Physical moment: A key that fits perfectly. An umbrella that opens in one motion. A zipper that doesn't catch.
 Behavioral property: The interaction is invisible. It happens without requiring attention.
 Digital application: Zero-friction, high-frequency interactions. Tab order. Form submit on Enter. Labels that focus their inputs. The absence of friction is the experience — not delight, but its necessary precondition.
-
----
-
-## Where to Start
-
-This skill has four entry points. Find the one that matches where you are.
-
----
-
-**Translate** — You have a raw material: a feeling you want to evoke, a physical moment that made you feel something, a reference you want to bring into digital. You're not designing yet — you're sourcing.
-Start with the Physical World Vocabulary. Find the cluster that matches your feeling. Extract the behavioral property. Then move to the Inside-Out Brief to make it a material decision.
-
-**Build** — You have a concept, a brief, or an idea that isn't a design yet.
-If it's your own concept: start with the Premise Question — is there a "what if?" that surprises someone? If you're executing on a client's or organisation's existing premise, skip the Premise Question. Either way: Calibrate First to set the register, then the Inside-Out Brief for each interaction that matters.
-
-**Improve** — You have a design and something is off — generic, wrong register, not quite landing.
-Start with the Review Checklist to find what's missing. Then run the Frogger on the interactions that feel wrong: which characteristics are sitting at framework defaults? Find the vocabulary term that names what should be there instead.
-
-**Push** — You have a design that's working. You want more from it.
-Name the quality that's already present — find it in the vocabulary. Run the Frogger to see which characteristics are load-bearing for that quality. Use the implementation specs to go further on each one.
 
 ---
 
