@@ -59,6 +59,21 @@ Before designing any interaction, name who is actually there. Not the action the
 
 The interface designed for the task is functional. The interface designed for the feeling is felt.
 
+
+## Calibrate First
+
+Before applying this framework, identify the product's primary emotional register. This determines which parts of the skill to lean into and which to dial back.
+
+| Register | What it means | How this skill applies |
+|---|---|---|
+| **Joy / belonging** | Consumer, social, wellness, creative | Full skill — delight ceiling applies, personality earns trust |
+| **Efficiency / competence** | Productivity, B2B, professional tools | Restraint is the ceiling — warmth lives in copy precision, not celebration |
+| **Trust / safety** | Healthcare, finance, legal, government | Warmth = competence and clarity, not personality. Discovered delight is wrong here. |
+| **Urgency / clarity** | Clinical, emergency, real-time monitoring | Emotional resonance lives in zero ambiguity. Animation is risk. Every word counts. |
+
+"Discovered delight" (the Figma model) applies to joy/belonging products. For trust/urgency contexts, personality must be fully legible on first encounter — delay is friction, not sophistication.
+
+
 ### Then ask where that feeling already lives
 
 Once you have the feeling you want to evoke, the physical world becomes your vocabulary. Look for moments — in rooms, in objects, in bodies — where that feeling already exists naturally. The behavior of those moments is your raw material.
@@ -166,7 +181,7 @@ The Interaction Frogger (Wensveen et al., DIS 2004) maps how tightly an interfac
 
 ### The 15 Felt Quality Vocabulary
 
-Full implementation specs at `~/Projects/private/interfaces-that-feel/vocabulary-implementation-specs.md`. Frogger recipe for each at `vocabulary-frogger-map.md`.
+Full implementation specs at `vocabulary-implementation-specs.md` (in this skill's directory). Frogger recipe for each at `vocabulary-frogger-map.md`.
 
 **Weight** — how much the interaction costs to perform
 - **Settled** · Completes at its own pace. Overdamped, no bounce. 400–550ms.
@@ -193,7 +208,7 @@ Full implementation specs at `~/Projects/private/interfaces-that-feel/vocabulary
 
 ### The Inside-Out Brief
 
-Before any material decision on a new interaction, fill out the brief at `~/Projects/private/interfaces-that-feel/inside-out-brief-template.md`. Sequence is mandatory — each field unlocks the next:
+Before any material decision on a new interaction, fill out `inside-out-brief-template.md` (in this skill's directory). Sequence is mandatory — each field unlocks the next:
 
 1. **The Moment** — User's emotional state arriving / what they want to feel leaving
 2. **The Felt Quality** — Name it precisely from the vocabulary. If you can't name it, you haven't found it.
@@ -210,98 +225,22 @@ The practice says: use the physical world as your vocabulary. This is that vocab
 
 Each entry names a feeling, identifies a physical moment that already carries it, and extracts the behavioral property to borrow. These are not metaphors — they are material decisions. The physical world has already solved the problem of producing feelings. You are borrowing something that works.
 
+Entries are grouped by the kind of feeling they address. Start in the right cluster, then find the specific moment.
+
 ---
+
+### Belonging & acknowledgment
+*The user needs to feel seen, heard, or not alone.*
 
 **Not being alone in a solitary experience**
 Physical moment: A party — the moment you look up and the room is full of people moving to the same thing. Strangers dancing near each other without speaking.
 Behavioral property: Presence without interruption. Synchrony without announcement. Proximity without exchange.
 Digital application: Co-presence indicators, shared listening states, collaborative cursors. Show others without surfacing them as demands on attention.
 
----
-
-**The right resistance before commitment**
-Physical moment: The resistance of a quality car door just before it closes. A deadbolt turning. A pen that clicks with a certain weight.
-Behavioral property: Brief, tactile pause at the threshold. The action doesn't complete at zero effort.
-Digital application: Confirmation before destructive actions. The pause should have weight: animation that slows at the threshold, copy that names the consequence, a moment where the user has to mean it.
-
----
-
 **Acknowledgment that proves you were heard**
 Physical moment: A reply that quotes the specific thing you said. A nod from someone who was clearly listening, not waiting to speak.
 Behavioral property: The confirmation reflects back what actually happened — not the category of action, the specific action.
 Digital application: "Your 14 items are saved" not "Saved." "Message sent to Maya" not "Sent." Specificity is the acknowledgment.
-
----
-
-**Returning to somewhere familiar**
-Physical moment: Coming home. Picking up a book and knowing, without checking, roughly where you left off.
-Behavioral property: Minimal reorientation required. The familiar context is restored, not rebuilt.
-Digital application: Return user states. Preserve scroll position, last action, in-progress work. Don't ask a returning user to re-establish themselves.
-
----
-
-**Discovery that was always there**
-Physical moment: Finding a note in a coat pocket from last season. A path in a city you've walked a hundred times that you've never taken.
-Behavioral property: The thing was there before you found it. You didn't unlock it — you arrived at it.
-Digital application: Hidden features and keyboard shortcuts. They don't require announcement. The curious user finds them; the rest never need to know.
-
----
-
-**Things taking their natural time**
-Physical moment: Ice melting. A photograph developing in a darkroom. Rain stopping.
-Behavioral property: The process has a rhythm that isn't controlled by the observer. Progress is visible but not accelerable.
-Digital application: Background processes, async work, generative responses. Don't compress perceived time with false urgency. Show what's happening — don't apologize for it.
-
----
-
-**The moment before the thing you've worked toward**
-Physical moment: The held breath before a starting gun. The last note before the rest falls away.
-Behavioral property: A brief suspension. The threshold is felt before it's crossed.
-Digital application: Final confirmation before a significant send, publish, or submit. The transition should pause, not rush.
-
----
-
-**Permission to leave without guilt**
-Physical moment: A host walking you to the door. A meeting that ends at the right time. A conversation that doesn't trail off.
-Behavioral property: The exit is clean. The ending is as intentional as the beginning.
-Digital application: Session end states, signout flows, task completion. No dark patterns. No "are you sure you want to leave?" Just: "You're all set."
-
----
-
-**Being trusted with something fragile**
-Physical moment: A librarian handing you a rare book without saying anything about it. A friend starting a difficult sentence.
-Behavioral property: The weight is transferred with care. Nothing is rushed. Space is made for the receiver.
-Digital application: Destructive action states. High-stakes submissions (medical, financial, legal). Slow it down. Confirm with specificity. Let the weight land before proceeding.
-
----
-
-**Flow — momentum that feels earned**
-Physical moment: Cycling with wind behind you on a flat road. Chopping vegetables with a sharp knife. Typing fast when the thought is already there.
-Behavioral property: Each action chains naturally into the next. Nothing interrupts the rhythm.
-Digital application: Keyboard shortcuts that chain. Autocomplete that doesn't interrupt. Commands that queue without confirmation. Repeat actions at zero friction for power users.
-
----
-
-**Something recovering without requiring attention**
-Physical moment: A tablecloth settling after you've moved a dish. A bruise fading.
-Behavioral property: The recovery is automatic, gradual, and doesn't demand the user's attention.
-Digital application: Undo, optimistic UI rollback, auto-save. "We've restored the previous version." No alarm, no manual action required. The system holds its own.
-
----
-
-**Orientation after disorientation**
-Physical moment: Eyes adjusting in a dark room. Finding a landmark after being lost.
-Behavioral property: Something stable appears and everything else organizes around it. Resolution is gradual.
-Digital application: Error recovery. Session expiry. Significant UI changes. Give one stable anchor before surfacing options.
-
----
-
-**A wait that feels attended to**
-Physical moment: Waiting for a friend at a café with coffee already ordered. Waiting for a storm you know is coming.
-Behavioral property: The wait has context. The thing is coming and there's evidence of it.
-Digital application: Loading states specific to what's loading. Skeleton loaders shaped like the real content. "Analyzing your results" not "Loading..." The user should know they're in the right place.
-
----
 
 **Being seen in the exact moment**
 Physical moment: A waiter refilling your glass exactly as it empties. Someone handing you what you need before you ask.
@@ -310,12 +249,83 @@ Digital application: Smart defaults. Pre-filled fields based on history. Context
 
 ---
 
+### Weight & consequence
+*The interaction should cost something — or feel like it costs something.*
+
+**The right resistance before commitment**
+Physical moment: The resistance of a quality car door just before it closes. A deadbolt turning. A pen that clicks with a certain weight.
+Behavioral property: Brief, tactile pause at the threshold. The action doesn't complete at zero effort.
+Digital application: Confirmation before destructive actions. The pause should have weight: animation that slows at the threshold, copy that names the consequence, a moment where the user has to mean it.
+
+**Being trusted with something fragile**
+Physical moment: A librarian handing you a rare book without saying anything about it. A friend starting a difficult sentence.
+Behavioral property: The weight is transferred with care. Nothing is rushed. Space is made for the receiver.
+Digital application: Destructive action states. High-stakes submissions (medical, financial, legal). Slow it down. Confirm with specificity. Let the weight land before proceeding.
+
+**Flow — momentum that feels earned**
+Physical moment: Cycling with wind behind you on a flat road. Chopping vegetables with a sharp knife. Typing fast when the thought is already there.
+Behavioral property: Each action chains naturally into the next. Nothing interrupts the rhythm.
+Digital application: Keyboard shortcuts that chain. Autocomplete that doesn't interrupt. Commands that queue without confirmation. Repeat actions at zero friction for power users.
+
+---
+
+### Transition & threshold
+*The user is moving through a boundary — waiting, crossing, or reorienting.*
+
+**The moment before the thing you've worked toward**
+Physical moment: The held breath before a starting gun. The last note before the rest falls away.
+Behavioral property: A brief suspension. The threshold is felt before it's crossed.
+Digital application: Final confirmation before a significant send, publish, or submit. The transition should pause, not rush.
+
+**Things taking their natural time**
+Physical moment: Ice melting. A photograph developing in a darkroom. Rain stopping.
+Behavioral property: The process has a rhythm that isn't controlled by the observer. Progress is visible but not accelerable.
+Digital application: Background processes, async work, generative responses. Don't compress perceived time with false urgency. Show what's happening — don't apologize for it.
+
+**A wait that feels attended to**
+Physical moment: Waiting for a friend at a café with coffee already ordered. Waiting for a storm you know is coming.
+Behavioral property: The wait has context. The thing is coming and there's evidence of it.
+Digital application: Loading states specific to what's loading. Skeleton loaders shaped like the real content. "Analyzing your results" not "Loading..." The user should know they're in the right place.
+
+**Orientation after disorientation**
+Physical moment: Eyes adjusting in a dark room. Finding a landmark after being lost.
+Behavioral property: Something stable appears and everything else organizes around it. Resolution is gradual.
+Digital application: Error recovery. Session expiry. Significant UI changes. Give one stable anchor before surfacing options.
+
+---
+
+### Continuity & familiarity
+*The user has been here before, or the system should remember without being asked.*
+
+**Returning to somewhere familiar**
+Physical moment: Coming home. Picking up a book and knowing, without checking, roughly where you left off.
+Behavioral property: Minimal reorientation required. The familiar context is restored, not rebuilt.
+Digital application: Return user states. Preserve scroll position, last action, in-progress work. Don't ask a returning user to re-establish themselves.
+
+**Discovery that was always there**
+Physical moment: Finding a note in a coat pocket from last season. A path in a city you've walked a hundred times that you've never taken.
+Behavioral property: The thing was there before you found it. You didn't unlock it — you arrived at it.
+Digital application: Hidden features and keyboard shortcuts. They don't require announcement. The curious user finds them; the rest never need to know.
+
+**Something recovering without requiring attention**
+Physical moment: A tablecloth settling after you've moved a dish. A bruise fading.
+Behavioral property: The recovery is automatic, gradual, and doesn't demand the user's attention.
+Digital application: Undo, optimistic UI rollback, auto-save. "We've restored the previous version." No alarm, no manual action required. The system holds its own.
+
+---
+
+### Completion & permission
+*The user is finishing — or should be allowed to.*
+
 **Completion that allows rest**
 Physical moment: Putting down a heavy bag. Pushing a plate slightly away after a meal. The moment a long flight lands.
 Behavioral property: The weight releases. Nothing immediately demands the next action.
 Digital application: Post-completion states. Milestones. Don't immediately surface the next task. Let the completion breathe before moving on.
 
----
+**Permission to leave without guilt**
+Physical moment: A host walking you to the door. A meeting that ends at the right time. A conversation that doesn't trail off.
+Behavioral property: The exit is clean. The ending is as intentional as the beginning.
+Digital application: Session end states, signout flows, task completion. No dark patterns. No "are you sure you want to leave?" Just: "You're all set."
 
 **Something working exactly as it should**
 Physical moment: A key that fits perfectly. An umbrella that opens in one motion. A zipper that doesn't catch.
@@ -324,28 +334,23 @@ Digital application: Zero-friction, high-frequency interactions. Tab order. Form
 
 ---
 
-## When to Use
+## Where to Start
 
-- Building any user-facing component, page, or flow
-- Reviewing UI code or designs for feel quality
-- Writing microcopy, empty states, error messages, onboarding
-- Any time the result is technically correct but emotionally flat
-- Any time someone says "it feels generic" or "make this feel more alive"
+This skill has four entry points. Find the one that matches where you are.
 
 ---
 
-## Calibrate First
+**Translate** — You have a raw material: a feeling you want to evoke, a physical moment that made you feel something, a reference you want to bring into digital. You're not designing yet — you're sourcing.
+Start with the Physical World Vocabulary. Find the cluster that matches your feeling. Extract the behavioral property. Then move to the Inside-Out Brief to make it a material decision.
 
-Before applying this framework, identify the product's primary emotional register. This determines which parts of the skill to lean into and which to dial back.
+**Build** — You have a concept, a brief, or an idea that isn't a design yet.
+Start with the Premise Question: is there a "what if?" that surprises someone? Then Calibrate First to set the register. Then the Inside-Out Brief for each interaction that matters.
 
-| Register | What it means | How this skill applies |
-|---|---|---|
-| **Joy / belonging** | Consumer, social, wellness, creative | Full skill — delight ceiling applies, personality earns trust |
-| **Efficiency / competence** | Productivity, B2B, professional tools | Restraint is the ceiling — warmth lives in copy precision, not celebration |
-| **Trust / safety** | Healthcare, finance, legal, government | Warmth = competence and clarity, not personality. Discovered delight is wrong here. |
-| **Urgency / clarity** | Clinical, emergency, real-time monitoring | Emotional resonance lives in zero ambiguity. Animation is risk. Every word counts. |
+**Improve** — You have a design and something is off — generic, wrong register, not quite landing.
+Start with the Review Checklist to find what's missing. Then run the Frogger on the interactions that feel wrong: which characteristics are sitting at framework defaults? Find the vocabulary term that names what should be there instead.
 
-"Discovered delight" (the Figma model) applies to joy/belonging products. For trust/urgency contexts, personality must be fully legible on first encounter — delay is friction, not sophistication.
+**Push** — You have a design that's working. You want more from it.
+Name the quality that's already present — find it in the vocabulary. Run the Frogger to see which characteristics are load-bearing for that quality. Use the implementation specs to go further on each one.
 
 ---
 
