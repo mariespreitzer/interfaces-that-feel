@@ -12,6 +12,17 @@ Works across Claude Code, Codex CLI, Cursor, and any agent that supports the SKI
 npx skills add mariespreitzer/interfaces-that-feel
 ```
 
+## How it runs
+
+Bring an idea, a problem or a brief. The skill asks four questions, one at a time:
+
+1. What's the idea?
+2. Is there a moment in life that feels like this?
+3. If this exists as an app, how does it do this now?
+4. What does that moment physically look like, as literally as possible?
+
+Then it turns the literal details of your moment into a short concept brief.
+
 ---
 
 ## In practice
@@ -55,7 +66,7 @@ Once you have the feeling, ask where it already exists in the physical world. Th
 
 **You want a destructive action to have real weight:** a door closing in an old building. A deadbolt turning. The resistance before a point of no return. Animation that slows at the threshold. Copy that names the consequence. A moment where the user has to mean it.
 
-The full vocabulary (16 entries) is in the SKILL.md.
+The full vocabulary (16 entries) is in [practice.md](skills/interfaces-that-feel/practice.md).
 
 ### Heartbreak as a design brief
 
@@ -107,7 +118,7 @@ Each reference teaches one principle.
 
 **Anti-patterns:** confetti on routine saves, "Herding pixels", quirky 404s on otherwise cold products, `transition: all`, animations that animate everything.
 
-The full rules, easing values, accessibility requirements, and review checklist are in the SKILL.md.
+The full rules, easing values, accessibility requirements, and review checklist are in [practice.md](skills/interfaces-that-feel/practice.md).
 
 ---
 
