@@ -1,8 +1,8 @@
 # interfaces that feel
 
-> Most AI-generated UIs are technically correct and emotionally empty. This skill fixes that.
+> An interview for the start of a project. You bring an idea, and it helps you find the feeling in it.
 
-A Claude Code skill built on one principle: start with the felt state of the person — not the task. Use the physical world as vocabulary to discover or articulate that feeling. Then bring it into the digital.
+Most feelings that software is missing already exist somewhere in real life. A door that slows down before it clicks shut. A table set for two with one chair pulled out. If you describe a moment like that literally enough, the details tell you what to build. This skill helps you find that moment and turn it into a concept, before anyone opens Figma or picks an easing curve.
 
 Works across Claude Code, Codex CLI, Cursor, and any agent that supports the SKILL.md standard.
 
@@ -27,7 +27,7 @@ Then it turns the literal details of your moment into a short concept brief.
 
 ## In practice
 
-Four comparisons — the same interaction with and without intentional coupling decisions.
+Four comparisons of the same interaction, with and without intentional coupling decisions. This is what the details from the interview can turn into once you build them.
 
 | | |
 |---|---|
